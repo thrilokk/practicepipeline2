@@ -4,8 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
-- version1*/
+- version1
 
 pool:
   vmImage: ubuntu-18.04
