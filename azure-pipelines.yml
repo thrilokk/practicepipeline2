@@ -8,7 +8,8 @@ trigger:
 - version1/*
 
 pool:
-  vmImage: ubuntu-18.04
+  name: 'Default'
+  vmImage: 'vm2-agent'
 
 steps:
 - script: echo Hello, world!
